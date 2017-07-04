@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "neutrino start --presets neutrino-preset-react",
+    "build": "neutrino build --presets neutrino-preset-react"
+  },
+  "devDependencies": {
+    "neutrino": "^4.0.0",
+    "neutrino-preset-react": "^4.0.0"
+  },
+  "dependencies": {
+    "mobx": "^3.1.16",
+    "mobx-react": "^4.2.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "next"
+  }
+}
